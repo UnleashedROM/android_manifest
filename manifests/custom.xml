@@ -8,4 +8,10 @@
   <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="oreo" />
   <project path="vendor/lge" name="android_vendor_lge" remote="oreo" />
 
+  <!-- Build repositories -->
+  <remove-project name="platform/build" />
+  <project path="build" name="android_build" remote="oreo">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
 </manifest>
