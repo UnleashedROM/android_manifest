@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="oreo" />
+
+  <!-- Devices -->
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="oreo" />
+  <project path="kernel/lge/hammerhead" name="android_kernel_lge_hammerhead" remote="oreo" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="oreo" />
+
+</manifest>
