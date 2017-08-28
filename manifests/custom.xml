@@ -17,6 +17,8 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/audio"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="oreo" />
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="oreo" />
   <remove-project name="platform/hardware/qcom/display"/>
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="oreo" />
   <remove-project name="platform/hardware/qcom/media"/>
