@@ -19,7 +19,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="nitrogen-project/android_build_soong" remote="github" revision="o" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/audio"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="oreo" />
