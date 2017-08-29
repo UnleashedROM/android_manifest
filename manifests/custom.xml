@@ -26,6 +26,8 @@
   </project>
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/broadcom/wlan"/>
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="oreo" />
   <remove-project name="platform/hardware/qcom/audio"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="oreo" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="oreo" />
