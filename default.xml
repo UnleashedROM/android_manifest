@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.0.0_r4"
+  <default revision="refs/tags/android-8.1.0_r1"
            remote="aosp"
            sync-j="4" />
-  <remote  name="oreo"
-           fetch="https://github.com/UnleashedROM"
+  <remote  name="eucos"
+           fetch="https://github.com/EuclideanOS"
            revision="oreo" /> 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -604,6 +604,6 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- UnleashedROM additions -->
-  <include name="manifests/custom.xml"/>
+  <!-- EuclideanOS additions -->
+  <include name="manifests/eucos.xml"/>
 </manifest>
